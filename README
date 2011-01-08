@@ -3,6 +3,8 @@ DbdumpCommand
 
 This plugin adds a script/dbdump command which dumps your Rails database out.
 
+This master branch supports Rails 3.0.  For Rails 2.3, use the rails_2_3 branch.
+
 Like script/dbconsole, it takes your database connection details from
 config/database.yml, and supports mysql, postgresql, and sqlite.
 
@@ -20,4 +22,4 @@ RAILS_ENV=production script/dbdump -p >mysite_production_`date +%Y-%m-%d`
   - dumps your production database to a file named like mysite_production_2009-01-27.
 
 
-Copyright (c) 2009 Will Bryant, Sekuda Ltd, released under the MIT license
+Copyright (c) 2009-2011 Will Bryant, Sekuda Ltd, released under the MIT license

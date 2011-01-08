@@ -1,2 +1,2 @@
 require 'fileutils'
-FileUtils.rm(File.join(RAILS_ROOT, "script", "dbdump"))
+FileUtils.rm(File.join(Rails.root, "script", "dbdump"))

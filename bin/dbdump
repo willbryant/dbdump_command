@@ -1,0 +1,5 @@
+#!/usr/bin/env ruby
+require 'config/boot'
+require 'config/application'
+require File.expand_path('../../lib/commands/dbdump',  __FILE__)
+Rails::DBDump.start(Rails.application)
